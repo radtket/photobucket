@@ -7,7 +7,6 @@ import Search from "./components/Search";
 import NotFound from "./components/NotFound";
 
 const App = () => {
-  console.log(process.env);
   return (
     <PhotoContextProvider>
       <HashRouter basename="/SnapScout">
